@@ -23,6 +23,8 @@ header {
         width: 800px;
         height: 500px;
         text-align: center;
+        font-weight: bold;
+        font-size: 25px;
            
 }
 
@@ -30,6 +32,7 @@ button {
     background-color: var(--color);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
        
@@ -45,13 +48,24 @@ p {
     text-align: center;
 }
 
+#createDiv {
+    font-style: italic;
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    text-align: left;
+    font-size: 25px;
+    color: lightgray;
+}
+
 li {
     background-color:var(--color);
     margin-top: 10px;
     padding: 5px 15px;
-    width: 80%;
+    width: 30%;
     font-size: 18px;
     color: white;
+    border-radius: 5px;
+    
 }
 
 ul {

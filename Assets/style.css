@@ -15,6 +15,9 @@ header {
     margin-right: 1380px;
 }
 
+ul .highscores-table {
+    background-color: #CBC3E3
+}
 
 .wrapper {
      position: absolute;
@@ -68,8 +71,10 @@ li {
     
 }
 
+
 ul {
     text-align: left;
+    
 }
 
 label {

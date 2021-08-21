@@ -9,21 +9,28 @@
         <link rel="stylesheet" href="Assets\style.css" />
   </head>
   
+  <!--Header for highscores link and timer when starting the quiz-->
   <header>
     <div class="scores"><a href="highscores.html">View Highscores</a></div>
     <div id="currentTime"></div>
   </header>
+  
   <body>
-
+<!-- quiz section-->
   <div class="wrapper">
-      <div id="quiz-section">
+    
+    <!--div for quiz questions-->
+    <div id="quiz-section">
         <h1>Coding Quiz Challenge</h1>
         <p>
           Try to answer the following code-related questions within the time
           limit. Keep in mind that incorrect answers will penalize your
           score/time by ten seconds!
         </p>
+        <!--list of possible answers to choose from-->
         <ul id="choicesList"></ul>
+
+        <!--start button to start quiz-->
         <button id="start">Start Quiz</button>
 
       </div>
@@ -31,7 +38,7 @@
     </div>
       
   </body>
-
+<!--link to JavaScript for the functionality of the quiz-->
   <script src="Assets\script.js"></script>
 
 </html>

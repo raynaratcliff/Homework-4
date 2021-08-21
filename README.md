@@ -84,6 +84,13 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
+## Student Review 
+
+Built a user quiz, score is based on a timer of 60seconds, if you get the correct answer no time will be deducted from your overall socre. Answer wrong then time will be deducted by 10 seconds. At the end of the quiz be present with your score and can submit your initals for highscore. Your highscore will be displayed on a seperate page. You can clear highscore or go back to the start page of the quiz. 
+
+When building faced multiple challenges and found to not make the html divs to similiar in names, had to rethink my outline plan for my javascript to make it eaiser for understanding. 
+
+All features of the quiz are functional. 
 ---
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
